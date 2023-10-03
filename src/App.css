@@ -1,0 +1,71 @@
+.App
+{
+  display: flex;
+  justify-content: center;
+  /* min-height: 100vh; */
+  align-items: center;
+  flex-direction: column;
+  padding-top: 80px;
+}
+
+.quote{
+
+  background-image: url(./assets/quotes5.jpg);
+  background-size:cover ;
+  width: 450px;
+  height: 320px;
+ /* max-width: 620px;
+ max-height: 500px; */
+
+  border-radius: 10px;
+  
+  display: flex;
+  justify-content: center;
+  /* min-height: 100vh; */
+  align-items: center;
+  flex-direction: column;
+
+
+
+}
+
+
+.quote h2{
+  padding-left: 100px;
+  padding-right: 80px;
+  
+ 
+  font-size: 20px;
+  min-width: 6px;
+  text-shadow: 4px 4px 4px #aaa;
+  font-family: cursive;
+
+}
+
+.quote small{
+  font-size: 16px;
+  text-shadow: 4px 4px 4px #aaa;
+  font-family: cursive;
+}
+
+.btn{
+display: block;
+border: 2px solid #008CBA;
+background: transparent;
+padding: 10px 15px;
+color: #008CBA;
+font-size: 20px;
+border-radius: 5px;
+cursor: pointer;
+outline: none;
+transition: background 1s, color 1s;
+
+
+}
+
+.btn:hover{
+  background: #008CBA;
+  color: #ffff;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px0 rgba(0,0,0,0.19);
+}
+
