@@ -37,7 +37,6 @@ function App() {
       <button className="btn" onClick={fetchNewQuote}>
         Generate new quote
       </button>
-      <Footer />
     </div>
   );
 }
